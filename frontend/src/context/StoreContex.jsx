@@ -9,7 +9,8 @@ const StoreContexProvider = ({children}) => {
 
     const[cartItems, setCartItems] = useState({});
 
-    const url = "http://localhost:4000"
+    const url = "https://restaurantapp-backend-kvne.onrender.com"
+    
     const [token , setToken] = useState("")
     const[food_list, setFoodList] = useState([]);
 
